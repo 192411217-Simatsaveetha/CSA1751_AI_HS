@@ -223,5 +223,15 @@ for each possible digit assignment do
         return valid assignment
 
 return NO SOLUTION
+
+
+
+
+
+    convert words and result to numbers
+    if sum of word values = result value then
+        return valid assignment
+
+return NO SOLUTION
            
             
