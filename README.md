@@ -17,6 +17,7 @@ DFS(v): mark v visited print v for each adjacent u of v if u not visited DFS(u) 
 add start to OPEN g_cost[start] ← 0 PARENT[start] ← NULL
 
 while OPEN is not empty do node ← element in OPEN with lowest (g_cost[node] + H[node]) remove node from OPEN
+
 if node = goal then
     return path using PARENT
 
